@@ -1,10 +1,10 @@
 {
   "name": "purescript-spec-mocha",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/owickstrom/purescript-spec-mocha.git"
+    "url": "git://github.com/truqu/purescript-spec-mocha.git"
   },
   "moduleType": [
     "node"
@@ -16,7 +16,10 @@
     "output"
   ],
   "dependencies": {
-    "purescript-foldable-traversable": "^2.1.0",
-    "purescript-spec": "^0.12.0"
+    "purescript-foldable-traversable": "^3.3.1",
+    "purescript-spec": "^1.0.0"
+  },
+  "devDependencies": {
+    "purescript-datetime": "^3.3.0"
   }
 }
